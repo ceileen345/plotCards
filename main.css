@@ -1,0 +1,49 @@
+body {
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.default-card{
+    text-align: center;
+    margin:10px; 
+    padding:10px; 
+    position: relative;
+    border-radius: 10px;
+    height: 300px;
+    overflow:auto;
+    border: 2px solid black;
+}
+/* added-card will have a text enter box for the title too */
+
+.added-card {
+    
+}
+
+.cardtext {
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+}
+
+textarea {
+    margin-bottom: 11px;
+}

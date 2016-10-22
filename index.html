@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="main.css">
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src = "plotcards.js"></script>
+    <title>Basic Plot Cards</title>
+    </head>
+    <body>
+        <h1>Basic Plot Cards</h1>
+        <h2>Plot your novel with these index cards!</h2>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plot Structures
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="/index.html">Basic</a></li> <!--Fichtean Curve, page default -->
+            <li><a href="/snowflake.html">Snowflake</a></li> <!-- three disasters and an ending -->
+            <li><a href="/herojourney.html">Hero's Journey</a></li> <!-- https://static1.squarespace.com/static/5654c2e4e4b0c0b1609ae3a3/t/578d3dbcc534a5d4da00870e/1468875295326/Every+novel+needs+a+solid+foundation%21+If+you%27re+ready+to+build+your+own%2C+check+out+my+breakdown+of+these+three+bestselling+plot+structures+%28plus+tips+for+planning+your+multi-POV+novel+or+book+series%29.?format=750w -->
+              <li><a href="/pixar.html">Pixar</a></li>
+          </ul>
+        </div>
+        <br>
+        <!-- dropdown cards go here -->
+        <div class = "row">
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Exposition</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Inciting Event</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Crisis 1</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Crisis 2</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Crisis 2</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Climax</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Falling Action</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+            <div class = "col-sm-3 col-xs-6">
+                <div class = "default-card">
+                    <h3 class = "cardtitle">Resolution</h3>
+                    <textarea class = "cardtext"></textarea>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-ok"></span> Save
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class = "buttoncontainer text-center">
+            <button class = "btn btn-primary" id="textexport">Export as text</button>
+        </div>
+    </body>
+</html>
