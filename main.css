@@ -1,5 +1,5 @@
 body {
-    
+    background-color: #B39DDB;
 }
 
 h1 {
@@ -29,12 +29,21 @@ h2 {
     border-radius: 10px;
     height: 300px;
     overflow:auto;
-    border: 2px solid black;
+    border: 2px solid #7E57C2;
+    background-color: #EDE7F6;
 }
 /* added-card will have a text enter box for the title too */
 
 .added-card {
-    
+    text-align: center;
+    margin:10px; 
+    padding:10px; 
+    position: relative;
+    border-radius: 10px;
+    height: 300px;
+    overflow:auto;
+    border: 2px solid #2196F3;
+    background-color: #BBDEFB;
 }
 
 .cardtext {
@@ -44,6 +53,36 @@ h2 {
     height: 60%;
 }
 
+.cardtitle {
+    text-align: center;
+}
+
 textarea {
     margin-bottom: 11px;
+}
+
+.deletebutton{
+    float: right;
+    background-color: #2196F3;
+    border: none;
+    color: white;
+}
+
+.deletebutton:active{
+    background-color: #1565C0;
+    color: white;
+}
+
+.deletebutton:hover{
+    background-color: #1565C0;
+    color: white;
+}
+
+.cardtitlebox {
+    float: left;
+    text-align: center;
+}
+
+.menubtn {
+    background-color: #EDE7F6;
 }
